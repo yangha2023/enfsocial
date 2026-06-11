@@ -386,7 +386,7 @@ function Container27() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#222] text-[14px] w-full">
-        <p className="leading-[20px]">₩1,590,000</p>
+        <p className="leading-[20px]">₩39,000</p>
       </div>
     </div>
   );

@@ -25,7 +25,7 @@ const products = [
     badgeText: "text-[#222]",
     title: 'Ultra-thin Laptop 14"',
     subtitle: "512GB SSD, 16GB RAM, M3 Chip",
-    price: "₩1,590,000",
+    price: "₩39,000",
     rating: "4.9",
     heartFilled: false,
   },
