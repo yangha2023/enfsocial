@@ -1,5 +1,5 @@
 import svgPaths from "./svg-5zzbctt38b";
-import imgModernTechGadgetOnAMinimalistDeskHighEndProductPhotography from "./76c1ff686c2bcf36fe6d557d66b2e30591456c3a.png";
+import imgModernTechGadgetOnAMinimalistDeskHighEndProductPhotography from "./mankiw.jpg";
 import imgLuxuryMinimalistSofaInABrightLivingRoomInteriorDesignPhotography from "./32c36f7b95aa409402cdd2b8e06e547616656d97.png";
 import imgVintageFilmCameraOnAWoodenTableAestheticPhotography from "./0b9bbe76d77b4ab64b8d7687cb48af5d186ec600.png";
 import imgContainer from "./bc76a5ad060e99f0d569b602ea9758eab7f60907.png";

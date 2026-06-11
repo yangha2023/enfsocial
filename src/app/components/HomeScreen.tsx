@@ -1,5 +1,5 @@
 import svgPaths from "../../imports/HomeScreen/svg-5zzbctt38b";
-import imgTechGadget from "../../imports/HomeScreen/76c1ff686c2bcf36fe6d557d66b2e30591456c3a.png";
+import imgTechGadget from "../../imports/HomeScreen/mankiw.jpg";
 import imgSofa from "../../imports/HomeScreen/32c36f7b95aa409402cdd2b8e06e547616656d97.png";
 import imgCamera from "../../imports/HomeScreen/0b9bbe76d77b4ab64b8d7687cb48af5d186ec600.png";
 
@@ -120,9 +120,8 @@ export function HomeScreen({ onProductClick }: HomeScreenProps) {
             {categories.map((cat) => (
               <button
                 key={cat.label}
-                className={`flex flex-col items-center gap-2 pb-4 relative shrink-0 ${
-                  cat.active ? "border-b-2 border-[#222]" : ""
-                }`}
+                className={`flex flex-col items-center gap-2 pb-4 relative shrink-0 ${cat.active ? "border-b-2 border-[#222]" : ""
+                  }`}
               >
                 <svg
                   fill="none"
@@ -130,14 +129,14 @@ export function HomeScreen({ onProductClick }: HomeScreenProps) {
                     cat.label === "Trending"
                       ? "0 0 15.75 18.0009"
                       : cat.label === "Furniture"
-                      ? "0 0 22.5 18"
-                      : cat.label === "Fashion"
-                      ? "0 0 22.5004 18"
-                      : cat.label === "Electronics"
-                      ? "0 0 18 18"
-                      : cat.label === "Vehicles"
-                      ? "0 0 18 18"
-                      : "0 0 22.5 18"
+                        ? "0 0 22.5 18"
+                        : cat.label === "Fashion"
+                          ? "0 0 22.5004 18"
+                          : cat.label === "Electronics"
+                            ? "0 0 18 18"
+                            : cat.label === "Vehicles"
+                              ? "0 0 18 18"
+                              : "0 0 22.5 18"
                   }
                   className="w-[18px] h-[18px]"
                 >
