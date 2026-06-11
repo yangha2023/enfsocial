@@ -1,8 +1,8 @@
 import svgPaths from "./svg-ripzfygqqv";
 import imgAestheticInteriorDesignMinimalFurnitureBrightLivingRoom from "./e1fd0aaea7ad3eccc082001e4d6dc66c0611a8af.png";
-import imgHighEndTechGadgetsSleekElectronicsFuturisticDeskSetup from "./43a7f569855bf6754a48534edc77c0c73a07bedb.png";
+import imgHighEndTechGadgetsSleekSellingFuturisticDeskSetup from "./43a7f569855bf6754a48534edc77c0c73a07bedb.png";
 import imgLuxuryFashionEditorialMinimalClothingHighFashionBackground from "./b9dcfcb0e1ae383d23d51d9ec7f24c7e98f7e28c.png";
-import imgLuxurySportsCarSleekVehicleCurvesPremiumAutomotivePhotography from "./1034ca0b3f6b585854841fbd9c94c8d4cb8ecaea.png";
+
 import imgGamingSetupWithNeonLightsMechanicalKeyboardProfessionalGamerVibe from "./67f40c2e24a43234b316a50d57d2e81ec74e57b3.png";
 import imgArtGallerySpaceModernPaintingsMinimalistExhibition from "./e6a65c03822783b6736c64ddb84c5876fecbdfe9.png";
 import imgContainer from "./bc76a5ad060e99f0d569b602ea9758eab7f60907.png";
@@ -323,7 +323,7 @@ function Container20() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#6b7280] text-[12px] tracking-[0.0234px] whitespace-nowrap">
-        <p className="leading-[16px]">Electronics • 3 days ago</p>
+        <p className="leading-[16px]">Selling • 3 days ago</p>
       </div>
     </div>
   );
@@ -414,11 +414,11 @@ function OverlayShadow() {
   );
 }
 
-function HighEndTechGadgetsSleekElectronicsFuturisticDeskSetup() {
+function HighEndTechGadgetsSleekSellingFuturisticDeskSetup() {
   return (
     <div className="flex-[1_0_0] min-h-px relative w-full" data-name="high-end tech gadgets, sleek electronics, futuristic desk setup">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[129.58%] left-0 max-w-none top-[-14.79%] w-full" src={imgHighEndTechGadgetsSleekElectronicsFuturisticDeskSetup} />
+        <img alt="" className="absolute h-[129.58%] left-0 max-w-none top-[-14.79%] w-full" src={imgHighEndTechGadgetsSleekSellingFuturisticDeskSetup} />
       </div>
     </div>
   );
@@ -428,7 +428,7 @@ function Container25() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
-        <p className="leading-[24px]">Electronics</p>
+        <p className="leading-[24px]">Selling</p>
       </div>
     </div>
   );
@@ -445,7 +445,7 @@ function Container24() {
 function OverlayShadow1() {
   return (
     <div className="bg-[rgba(255,255,255,0)] col-0 content-stretch flex flex-col h-[120px] items-start justify-center justify-self-stretch overflow-clip relative rounded-[12px] row-0 shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] shrink-0" data-name="Overlay+Shadow">
-      <HighEndTechGadgetsSleekElectronicsFuturisticDeskSetup />
+      <HighEndTechGadgetsSleekSellingFuturisticDeskSetup />
       <div className="absolute bg-[rgba(0,0,0,0.3)] inset-0" data-name="Overlay" />
       <Container24 />
     </div>
@@ -490,43 +490,7 @@ function OverlayShadow2() {
   );
 }
 
-function LuxurySportsCarSleekVehicleCurvesPremiumAutomotivePhotography() {
-  return (
-    <div className="flex-[1_0_0] min-h-px relative w-full" data-name="luxury sports car, sleek vehicle curves, premium automotive photography">
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[129.58%] left-0 max-w-none top-[-14.79%] w-full" src={imgLuxurySportsCarSleekVehicleCurvesPremiumAutomotivePhotography} />
-      </div>
-    </div>
-  );
-}
 
-function Container29() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0" data-name="Container">
-      <div className="[word-break:break-word] flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white tracking-[0.1094px] whitespace-nowrap">
-        <p className="leading-[24px]">Vehicles</p>
-      </div>
-    </div>
-  );
-}
-
-function Container28() {
-  return (
-    <div className="absolute content-stretch flex inset-0 items-center justify-center" data-name="Container">
-      <Container29 />
-    </div>
-  );
-}
-
-function OverlayShadow3() {
-  return (
-    <div className="bg-[rgba(255,255,255,0)] col-0 content-stretch flex flex-col h-[120px] items-start justify-center justify-self-stretch overflow-clip relative rounded-[12px] row-0 shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] shrink-0" data-name="Overlay+Shadow">
-      <LuxurySportsCarSleekVehicleCurvesPremiumAutomotivePhotography />
-      <div className="absolute bg-[rgba(0,0,0,0.3)] inset-0" data-name="Overlay" />
-      <Container28 />
-    </div>
-  );
-}
 
 function GamingSetupWithNeonLightsMechanicalKeyboardProfessionalGamerVibe() {
   return (
@@ -610,7 +574,6 @@ function Container21() {
       <OverlayShadow />
       <OverlayShadow1 />
       <OverlayShadow2 />
-      <OverlayShadow3 />
       <OverlayShadow4 />
       <OverlayShadow5 />
     </div>

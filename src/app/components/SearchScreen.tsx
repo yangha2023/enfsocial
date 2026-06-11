@@ -1,22 +1,21 @@
 import svgPaths from "../../imports/SearchScreen/svg-ripzfygqqv";
 import imgFurniture from "../../imports/SearchScreen/e1fd0aaea7ad3eccc082001e4d6dc66c0611a8af.png";
-import imgElectronics from "../../imports/SearchScreen/43a7f569855bf6754a48534edc77c0c73a07bedb.png";
+import imgSelling from "../../imports/SearchScreen/43a7f569855bf6754a48534edc77c0c73a07bedb.png";
 import imgFashion from "../../imports/SearchScreen/b9dcfcb0e1ae383d23d51d9ec7f24c7e98f7e28c.png";
-import imgVehicles from "../../imports/SearchScreen/1034ca0b3f6b585854841fbd9c94c8d4cb8ecaea.png";
+
 import imgGaming from "../../imports/SearchScreen/67f40c2e24a43234b316a50d57d2e81ec74e57b3.png";
 import imgArt from "../../imports/SearchScreen/e6a65c03822783b6736c64ddb84c5876fecbdfe9.png";
 
 const recentSearches = [
   { id: 1, title: "Modern minimalist sofa", sub: "Furniture • 2 hours ago" },
   { id: 2, title: "Seoul Art Districts", sub: "Events • Yesterday" },
-  { id: 3, title: "Vintage Leica M6", sub: "Electronics • 3 days ago" },
+  { id: 3, title: "Vintage Leica M6", sub: "Selling • 3 days ago" },
 ];
 
 const categories = [
   { label: "Furniture", image: imgFurniture },
-  { label: "Electronics", image: imgElectronics },
+  { label: "Selling", image: imgSelling },
   { label: "Fashion", image: imgFashion },
-  { label: "Vehicles", image: imgVehicles },
   { label: "Gaming", image: imgGaming },
   { label: "Art & Design", image: imgArt },
 ];

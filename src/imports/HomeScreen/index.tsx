@@ -70,7 +70,7 @@ function Container5() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#6b7280] text-[12px] tracking-[0.1758px] whitespace-nowrap">
-        <p className="leading-[16px]">Furniture</p>
+        <p className="leading-[16px]">Community</p>
       </div>
     </div>
   );
@@ -163,44 +163,7 @@ function Container9() {
   );
 }
 
-function Img4() {
-  return (
-    <div className="relative shrink-0 size-[18px]" data-name="Img">
-      <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
-        <g id="Img">
-          <path d={svgPaths.pb2c2b00} fill="var(--fill-0, #6B7280)" id="Vector" />
-        </g>
-      </svg>
-    </div>
-  );
-}
 
-function Container13() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0" data-name="Container">
-      <Img4 />
-    </div>
-  );
-}
-
-function Container14() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0" data-name="Container">
-      <div className="[word-break:break-word] flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#6b7280] text-[12px] tracking-[0.1055px] whitespace-nowrap">
-        <p className="leading-[16px]">Vehicles</p>
-      </div>
-    </div>
-  );
-}
-
-function Container12() {
-  return (
-    <div className="absolute bottom-[16px] content-stretch flex flex-col gap-[8px] items-center left-[329.25px] top-[16px]" data-name="Container">
-      <Container13 />
-      <Container14 />
-    </div>
-  );
-}
 
 function Img5() {
   return (
@@ -248,7 +211,6 @@ function Container() {
       <Container3 />
       <Container6 />
       <Container9 />
-      <Container12 />
       <Container15 />
     </div>
   );
@@ -365,7 +327,7 @@ function Container22() {
   return (
     <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-name="Container">
       <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#222] text-[16px] tracking-[0.0156px] whitespace-nowrap">
-        <p className="leading-[24px]">{`Ultra-thin Laptop 14"`}</p>
+        <p className="leading-[24px]">{`Principles of Economics`}</p>
       </div>
       <Container23 />
     </div>

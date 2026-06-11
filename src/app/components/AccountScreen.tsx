@@ -1,5 +1,5 @@
 import svgPaths from "../../imports/AccountScreen/svg-mn8e0uc6qr";
-import imgUserProfile from "../../imports/AccountScreen/f578f9c2a181ef669150341163e63e6e9da01878.png";
+import imgUserProfile from "../../imports/AccountScreen/user_profile.png";
 import imgHouseIcon from "../../imports/AccountScreen/483b6ee700e426885e53fc8e64b4d9a3593d3210.png";
 
 function ChevronRight() {
@@ -72,14 +72,14 @@ export function AccountScreen() {
           </div>
           <div className="flex items-center gap-4">
             <div className="w-20 h-20 rounded-full overflow-hidden shrink-0">
-              <img src={imgUserProfile} alt="Jane Cooper" className="w-full h-full object-cover" />
+              <img src={imgUserProfile} alt="김민준" className="w-full h-full object-cover" />
             </div>
             <div className="flex-1">
               <p
                 className="text-[24px] text-[#222]"
                 style={{ fontFamily: "Inter, sans-serif", fontWeight: 600 }}
               >
-                Jane Cooper
+                김민준
               </p>
               <button>
                 <span

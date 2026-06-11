@@ -1,5 +1,5 @@
 import svgPaths from "./svg-mn8e0uc6qr";
-import imgUserProfile from "./f578f9c2a181ef669150341163e63e6e9da01878.png";
+import imgUserProfile from "./user_profile.png";
 import img3DGlossyHouseIconOrSocialNetworkNodeVibrantColors from "./483b6ee700e426885e53fc8e64b4d9a3593d3210.png";
 import imgContainer from "./bc76a5ad060e99f0d569b602ea9758eab7f60907.png";
 import imgContainer1 from "./5afa22aa1f78c881ecaf491ed859b41916969a2f.png";
@@ -74,7 +74,7 @@ function Heading1() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Heading 2">
       <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#222] text-[24px] w-[148.336px]">
-        <p className="leading-[32px]">Jane Cooper</p>
+        <p className="leading-[32px]">김민준</p>
       </div>
     </div>
   );

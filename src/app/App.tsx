@@ -20,7 +20,7 @@ export default function App() {
     }
     switch (activeTab) {
       case "home":
-        return <HomeScreen onProductClick={() => setShowDetail(true)} />;
+        return <HomeScreen onProductClick={() => setShowDetail(true)} onSearchClick={() => setActiveTab("search")} />;
       case "search":
         return <SearchScreen />;
       case "add":
