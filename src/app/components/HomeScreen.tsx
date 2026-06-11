@@ -99,12 +99,7 @@ export function HomeScreen({ onProductClick }: HomeScreenProps) {
               >
                 Search enf social
               </p>
-              <p
-                className="text-[12px] text-[#6b7280]"
-                style={{ fontFamily: "Inter, sans-serif", fontWeight: 400 }}
-              >
-                Anywhere • Any time • Add guests
-              </p>
+
             </div>
             <div className="p-2 border border-[#ddd] rounded-full ml-2 shrink-0">
               <svg fill="none" viewBox="0 0 14 14" className="w-3.5 h-3.5">
